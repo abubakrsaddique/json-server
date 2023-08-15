@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.login-container{
+            background: rgb(63,94,251);
+            background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+        }
+form{
+            background: rgb(238,174,202);
+            background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            width: 25%;
+            margin-top: 2%;
+            margin-bottom: 5%;
+            margin-left: 40%;
+            padding: 2%;
+            text-align: initial;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;    
+            line-height: 0.6;
+        }
+.form-group{
+            padding: 10px;
+        }
+.login-container label{
+            display: block;
+            margin-bottom: 5px;
+        }
+input{
+            display: block;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container button {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #054c07;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          .login-container button:hover {
+            background-color: #45a049;
+          }
+          .login-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+          }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 2px solid #edbd7d;
+            text-align: left;
+            padding: 8px;
+            background: antiquewhite;
+        }
+        th {
+            text-align: center;
+            color:black;
+            background-color: rgb(238,174,202);
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .btn1{
+            background-color: #054c07;
+            color: white;
+            border: none;
+            padding: 9px;
+            margin-right: 6px;
+            border-radius: 11%;
+            text-align: center;
+        }
+        .btn1:hover {
+            background-color: #45a049;
+          }

@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "firstName": "John",
+      "lastName": "doe",
+      "age": "2",
+      "email": "john@example.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Sharuk",
+      "lastName": "doe",
+      "age": "336",
+      "email": "sharuk@example.com"
+    },
+    {
+      "id": 1692112353919,
+      "firstName": "Javid",
+      "lastName": "Manzoor",
+      "age": "3",
+      "email": "saifahmad07303@gmail.com"
+    },
+    {
+      "id": 1692112353920,
+      "firstName": "Faisal",
+      "lastName": "Eram",
+      "age": "87",
+      "email": "Sales@economisttrade.com"
+    },
+    {
+      "id": 1692112353921,
+      "firstName": "Ali",
+      "lastName": "Ch",
+      "age": "76",
+      "email": "alich@gmail.com"
+    }
+  ]
+}

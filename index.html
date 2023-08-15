@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Jason Server</title>
+</head>
+<body>
+    <div id="userFormContainer" class="login-container">
+        <form id="userForm">
+            <h2>User Form</h2>
+          <input type="hidden" id="userId" name="id">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required><br>
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required><br>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+          <button class="btn1" type="submit">Submit</button>
+        </form>
+      </div>
+
+  <div id="userTableContainer">
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- User rows will be inserted here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
